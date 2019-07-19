@@ -4,28 +4,33 @@ import React from "react";
 export class Nav extends React.Component {
 	render() {
 		return (
-			<ul className="nav justify-content-end">
-				<li className="nav-item">
-					<a className="nav-link active" href="#">
-						Home
-					</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="#">
-						About
-					</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="#">
-						Services
-					</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="#">
-						Contact
-					</a>
-				</li>
-			</ul>
+			<div class="parentNav">
+				<ul className="nav justify-content-end">
+					<div class="titleNav text-left">
+						<h2 className="navTitle">Start with Bootstrap</h2>
+					</div>
+					<li className="nav-item">
+						<a className="nav-link active" href="#">
+							Home
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#">
+							About
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#">
+							Services
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#">
+							Contact
+						</a>
+					</li>
+				</ul>
+			</div>
 		);
 	}
 }
