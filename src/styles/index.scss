@@ -16,9 +16,14 @@
     background-color: #3d3e40;
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 .navTitle{
     color: white;
+
 }
 .footer{
     width: 100%;
@@ -26,6 +31,6 @@
     background-color: #3d3e40;
 }
 h4{
-    vertical-align: middle;
+ padding-top: 4%;
     color: white;
 }

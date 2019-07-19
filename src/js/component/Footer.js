@@ -4,7 +4,7 @@ import React from "react";
 export default class CardDeck extends React.Component {
 	render() {
 		return (
-			<div class="footer">
+			<div className="footer">
 				<h4>Copyright © Your Website 2019</h4>
 			</div>
 		);
