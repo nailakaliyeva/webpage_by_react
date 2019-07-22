@@ -11,7 +11,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="text-center">
+			<div className="text-center mx-5 mb-5">
 				<Nav />
 				<Jumbotron />
 				<CardDeck />
