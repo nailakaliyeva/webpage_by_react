@@ -12,7 +12,7 @@ export default class Jumbotron extends React.Component {
 					information.
 				</p>
 				<hr className="my-4" />
-				<p>
+				<p className="my-4">
 					It uses utility classNamees for typography and spacing to
 					space content out within the larger container.
 				</p>
